@@ -1,0 +1,31 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="*name of your apex controller here*">
+    <aura:handler name="init" value="{!this}" action="*your action*" />
+    
+    <!-- 
+        This file contains a skeleton for creating a lightning component.
+        Please create the correct attributes, specify the correct aura:id values and fill in the name of your apex controller.
+        Please remember that when using pasting variables the syntax = {!v.variableName}
+    -->
+
+    <!-- Define the following aura:attributes:
+    name = recordId - type = string
+    name = smartFridge -  type = SmartFridge__c
+    name = temperature - type = Decimal - default = 0.0
+    name = humidity - type = Decimal - default = 0.0
+    name = door     - type = String - default = Loading...
+    -->
+    
+    
+    <div class="slds-box slds-theme--shade centralize">
+        <div class="circleTemp" aura:id="*specify an aura id*">
+            <span><!-- output of the temperature variable here --><sup>°C</sup></span>
+        </div>
+        <div class="circleHumidityFloat">
+            <div class="circleHumidity">
+                <span><!-- output of the humidity variable here --></span>
+            </div>
+        </div>
+        
+        <span class="slds-badge doorSpan" aura:id="*specify an aura id*"><!-- output of the door variable here --></span>
+    </div>
+</aura:component>

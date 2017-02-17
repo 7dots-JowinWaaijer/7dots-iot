@@ -1,0 +1,16 @@
+public class *nameOfYourController* {
+	
+
+	// 1. Create a method called "getFridgeData" with one parameter called of type String. 
+	// 2. The method should be public static and should return a SmartFridge__c object
+	// 3. The name of the parameter should be "recordIdString"
+	// 4. as return statement, create a SOQL query that queries the following fields: (SOQL queries always start with a "["  and end with "]")
+			4.1 DeviceId__c
+			4.2 Door__c
+			4.3 Humidity__c
+			4.4 Temperature__c
+			4.5 ts__c
+		From the table: SmartFridge__c 
+		Where Id is equal to the value of our recordIdString parameter (parameters in soql are written like this: Id = :parameterName)
+		End the query with "LIMIT 1"
+}

@@ -1,0 +1,79 @@
+.THIS {
+    position: relative;
+}
+
+.THIS.centralize {
+    justify-content: center;
+    display: flex;
+}
+
+.THIS .circleTemp {
+    border-radius: 50%;
+    width: 125px; 
+    font-size: 32px;
+    border: 2px solid #4bca81;
+    background: #ffffff;
+}
+.THIS .circleTemp  span {
+    text-align: center;
+    line-height: 120px;
+    display: block;
+}
+
+.THIS .circleTempOK {
+    border: 3px solid #1589EE !important;
+    background: #ffffff !important;
+    color: #1589EE !important;
+}
+
+.THIS .circleTempNOK {
+    border: 3px solid #c23934 !important;
+    background: #ffffff !important;
+    color: #c23934 !important;
+}
+
+.THIS sup {
+	top: -0.23em;
+}
+
+.THIS .circleHumidityFloat {
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 37px;
+}
+.THIS .circleHumidity {
+    position: relative;
+    border-radius: 50%;
+    width: 46px; 
+    font-size: 14px;
+    border: 3px solid #a9a9a9;
+    background: #a9a9a9;
+    color: white;
+}
+.THIS .circleHumidity  span {
+    text-align: center;
+    line-height: 40px;
+    display: block;
+}
+
+.THIS .doorSpan {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.THIS .doorNOK {
+    background-color: #c23934 !important;
+    color: white !important;
+}
+.THIS .doorOK {
+    background-color: #4bca81 !important;
+    color: white !important;
+}
+
+.THIS .dock-bottom {
+    display:block;
+	margin: 0.5rem;
+    width: 100%;
+    backgroud-color: #fff;
+    height: 50px;
+}
